@@ -4,7 +4,7 @@
   }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -46,6 +46,14 @@ body {
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.button-one {
+    padding: 10px 14px;
+    font-weight: 700;
+    border-radius: 7px;
+    width: 120px;
+    border: 0;
 }
 
 .mango {
@@ -119,17 +127,34 @@ button {
     display: flex;
     background-color:#3882F6;
     margin: 50px 70px;
-    height: 100px;
+    height: 70px;
     border-radius: 5px;
     padding: 40px 80px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .sign-up-text {
     color: #F9FAF8;
+    font-weight: 700;
 }
 
 .sign-up-subtext {
     color: #E5E7EB;
+    font-weight: 500;
+}
+
+.sign-up-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-two {
+    border: 2px solid #F9FAF8;
+    width: 20%;
+    font-weight: 700;
+    border-radius: 7px;
+    padding: 10px 14px;
 }
 
 .footer {
