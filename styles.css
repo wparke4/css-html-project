@@ -53,6 +53,7 @@ body {
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+    padding-top: 12px;
 }
 
 .button-one {
@@ -64,10 +65,11 @@ body {
 }
 
 .mango {
-    height: 300px;
+    height: 270px;
     width: auto;
     object-fit: cover;
     border-radius: 3%;
+    margin-left: 40px;
 }
 
 .logo {
