@@ -31,11 +31,18 @@ body {
 }
 
 .hero {
-    display= flex;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 40px;
 }
 
 .hero-container {
-    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 .hero-main {
@@ -120,7 +127,6 @@ button {
 .review-author {
     display: flex;
     flex-direction: row-reverse;
-    text-align: end;
     font-size: 26px;
     font-weight: 700;
     font-style: normal;
