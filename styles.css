@@ -121,6 +121,9 @@ button {
     display: flex;
     flex-direction: row-reverse;
     text-align: end;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .sign-up {
